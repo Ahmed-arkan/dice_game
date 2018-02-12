@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Dice Game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="dice.css">
+
+</head>
+<body>
+	<main>
+	<nav>
+			<span id="pname1" class="pname1"> player 1</span>
+
+			<span id="pname2" class="pname2"> player 2</span>
+	</nav>
+	<div class="logo"> <img src="Red_vs._Blue_logo.png" width="30%"></div>
+
+<section class="container">
+  <div id="cube" class="spinning">
+    <figure class="front"><span>.</span></figure>
+    <figure class="back"><span>..</span></figure>
+    <figure class="right"><span>...</span></figure>
+    <figure class="left"><span>....</span></figure>
+    <figure class="top"><span>.....</span></figure>
+    <figure class="bottom"><span>......</span></figure>
+  </div>
+</section> 
+
+<h1> ----------- Dice Game -----------</h1>
+
+
+
+<div>
+	<span>player number 1: </span>
+
+	<input type="text" id="input1">
+
+</div>
+
+<div>
+	<span>player number 2: </span>
+
+	<input type="text" id="input2">
+
+</div>
+
+
+
+<button onclick="Create() " id="start"> Start the Game </button>
+
+ </div>
+  <button onclick="rolldice()">Roll Dice</button>
+  <p>Duel!!</p>
+</div>
+
+<div id="diel1" class="dice">0</div>
+  <div id="diel2" class="dice">0</div>
+
+  	<p id="status"></p> 
+  </main>
+
+<footer>
+	
+	<p class="footerr"> © 2017  CodeFactory Vienna  |  Ahmed & Khalid </p>
+</footer>
+
+
+
+
+<script type="text/javascript" src="dice.js">
+	
+
+</script>
+</body>
+</html>
